@@ -1,0 +1,19 @@
+package holamundo
+
+class LeerFraseService {
+
+    def aplicarReemplazo(cadena) {
+	
+		
+  String x;
+	
+  for (x = "x"; cadena.indexOf("O") >= 0; X = X + "X") {
+  cadena = cadena.substring(0, cadena.indexOf("O")) + X + cadena.substring(cadena.indexOf("O") + 1);
+  }
+
+  println(cadena);
+  cadena  
+ }
+
+
+}

@@ -1,0 +1,10 @@
+package holamundo
+
+class HolaMundo {
+	String frase
+	
+    static constraints = {
+	frase(blank: false)
+    }
+
+}
